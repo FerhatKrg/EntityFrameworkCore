@@ -1,0 +1,49 @@
+﻿@model IEnumerable<dynamic>   
+@{
+    ViewData["Title"] = "CustomerListWithIndex";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+ 
+
+ 
+<div class="row">
+	<div class="col-lg-12 grid-margin stretch-card">
+		<div class="card">
+			<div class="card-body">
+				<h3 class="card-title">Müşteri Listesi - İndex</h3>
+				 
+				<div class="table-responsive">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Müşteri Adı</th>
+								<th>Müşteri SoyAdı</th>
+								<th>Müşteri Şehri</th>
+								 
+
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (var item in Model)
+							{
+								<tr>
+									<th>@item.SiraNo</th>
+									<th>@item.CustomerName</th>
+									<td>@item.CustomerSurname</td>
+									<td>@item.CustomerCity</td>
+									 
+									
+								</tr>
+							}
+
+
+						</tbody>
+					</table>
+				 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

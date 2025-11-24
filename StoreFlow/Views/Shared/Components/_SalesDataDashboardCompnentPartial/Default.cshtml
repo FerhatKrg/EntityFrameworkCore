@@ -1,0 +1,88 @@
+﻿@model List<Order>
+@{
+    string status = "";
+}
+<div class="col-md-8 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">
+                <i class="fas fa-table"></i>
+                Son Siparişler
+            </h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Müşteri</th>
+                            <th>Ürün</th>
+                            <th>Adet</th>
+                            <th>Durum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var i in Model)
+                        {
+                               <tr>
+                            <td class="font-weight-bold">
+								@i.Customer.CustomerName @i.Customer.CustomerSurname
+                            </td>
+                            <td class="text-muted">
+								@i.Product.ProductName
+                            </td>
+                            <td>
+                                @i.OrderCount
+                            </td>
+                                @if (i.Status == "Taşıma Durumunda")
+                                {
+                                    <td>
+                                        <label class="badge badge-warning badge-pill">@i.Status</label>
+                                    </td>
+                                }
+                                @if (i.Status == "İptal Edildi")
+                                {
+                                    <td>
+                                        <label class="badge badge-danger badge-pill">@i.Status</label>
+                                    </td>
+                                }
+                                @if (i.Status == "Teslim Edildi")
+                                {
+                                    <td>
+                                        <label class="badge badge-success badge-pill">@i.Status</label>
+                                    </td>
+                                }
+                                @if (i.Status == "Sipariş Alındı")
+                                {
+                                    <td>
+                                        <label class="badge badge-primary badge-pill">@i.Status</label>
+                                    </td>
+                                }
+                                @if (i.Status == "Ödeme Bekleniyor")
+                                {
+                                    <td>
+                                        <label class="badge badge-info badge-pill">@i.Status</label>
+                                    </td>
+                                }
+
+
+                        </tr>
+                        }
+                     
+                      
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-4 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">
+                <i class="fas fa-calendar-alt"></i>
+                Calendar
+            </h4>
+            <div id="inline-datepicker-example" class="datepicker"></div>
+        </div>
+    </div>
+</div>
