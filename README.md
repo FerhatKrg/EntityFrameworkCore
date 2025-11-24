@@ -1,4 +1,7 @@
-<h1>Bu Projede Asp.Net Core 9.0 ile geliştirilmiş olup proje içinde 70+ Entitiy Framework metodu kullanılarak bir dashboard tasarlanmıştır.</p>
+<p style="font-size:16px; line-height:1.5;">
+  Bu proje <strong>ASP.NET Core 9.0</strong> ile geliştirilmiş olup, proje içinde <strong>70+Entity Framework</strong>  metodu kullanılarak bir <strong>dashboard</strong> tasarlanmıştır.
+</p>
+
 <h3>🛠 Kullanılan Teknolojiler</h3>
 
 <!-- Teknoloji kartları -->
