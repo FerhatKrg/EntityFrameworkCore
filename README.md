@@ -21,9 +21,52 @@
     <strong>SQL Server</strong>
   </div>
 </div>
-PROJEYE AİT GÖRSELLER :
-<img width="1893" height="913" alt="image" src="https://github.com/user-attachments/assets/94671c67-edea-484f-a5cd-30d5c6d3f447" />
-<img width="1886" height="906" alt="image" src="https://github.com/user-attachments/assets/393b58f9-3eba-433b-adbd-6049011b056d" />
-<img width="1902" height="908" alt="image" src="https://github.com/user-attachments/assets/3bd051a7-9e96-4b53-b661-f257734a0205" />
 
+<h2 style="
+  font-family:system-ui;
+  font-weight:700;
+  color:#4A90E2;
+  padding-bottom:6px;
+  border-bottom:2px solid #4A90E2;
+  display:inline-block;
+">
+  📸 PROJEYE AİT GÖRSELLER
+</h2>
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:15px;">
+
+  <!-- Örnek görsel kutusu -->
+  <div style="
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:10px;
+    background:#fafafa;
+    width:290px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.07);
+  ">
+    <img width="1893" height="913" alt="image" src="https://github.com/user-attachments/assets/94671c67-edea-484f-a5cd-30d5c6d3f447" />
+  </div>
+
+  <div style="
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:10px;
+    background:#fafafa;
+    width:290px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.07);
+  ">
+  <img width="1886" height="906" alt="image" src="https://github.com/user-attachments/assets/393b58f9-3eba-433b-adbd-6049011b056d" />
+  </div>
+
+  <div style="
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:10px;
+    background:#fafafa;
+    width:290px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.07);
+  ">
+    <img width="1902" height="908" alt="image" src="https://github.com/user-attachments/assets/3bd051a7-9e96-4b53-b661-f257734a0205" />
+  </div>
+
+</div>
