@@ -7,7 +7,7 @@ namespace StoreFlow.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-          optionsBuilder.UseSqlServer("Server=DESKTOP-1VER53E\\SQLEXPRESS;initial Catalog=StoreFlowDB;integrated Security=true;trust server certificate=true");
+          optionsBuilder.UseSqlServer("Server=aaaa;initial Catalog=StoreFlowDB;integrated Security=true;trust server certificate=true");
         }
 
         public DbSet<Category> Categories { get; set; }
